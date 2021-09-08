@@ -50,16 +50,24 @@
     padding-top: 20px;
     padding-bottom: 20px;
     float: right;
-    font-size: 36px;
+    font-size: 16px;
     
 }
-.content{
+
+main {
     display: flex;
-    background-color: lightgray;
-    font-size: 12;
+   flex-wrap: wrap;
+    font-size: 12px;
+    float: right;
 }
-.content #about {
-    background-color:darkgreen;
+main header{
+    font-size: 24px;
+    background-color: white;
+    color: darkslateblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
