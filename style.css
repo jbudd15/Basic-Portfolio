@@ -47,9 +47,17 @@ header nav ul li{
     height: 160px;
 }
 
-.stripes h2 {
+.stripes figcaption {
     padding:0px;
-    
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.stripes img{
+   
+    height: 100px;
+    width: 100px;
+
 }
 
 main {
