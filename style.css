@@ -8,12 +8,16 @@
 .header{
     padding:20px;
     background-color: darkgray;
-    color: lightblue;
+    
 }
 
 .header h1{
     display: inline-block;
+    background-color: lightblue;
+    color: darkgray;
     font-size: 48px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .header nav{
     padding-top: 15px;
@@ -30,10 +34,17 @@
 
 .header h2 {
     display: inline-block;
+    background-color: lightblue;
+    color:darkgray;
     margin-left: 20px;
     padding-top: 20px;
     float: right;
     font-size: 36px;
+}
+
+.stripes {
+    background-image: url(../Basic-Portfolio/stripes.jpg);
+    height: 800px;
 }
 content{
     background-color: lightgray;
