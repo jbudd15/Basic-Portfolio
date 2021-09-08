@@ -18,6 +18,8 @@
     font-size: 48px;
     padding-right: 20px;
     padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom:20px;
 }
 .header nav{
     padding-top: 15px;
@@ -32,20 +34,38 @@
     margin-left: 25px;
 }
 
-.header h2 {
-    display: inline-block;
-    background-color: lightblue;
-    color:darkgray;
-    margin-left: 20px;
-    padding-top: 20px;
-    float: right;
-    font-size: 36px;
-}
+
 
 .stripes {
     background-image: url(../Basic-Portfolio/stripes.jpg);
-    height: 800px;
+    height: 160px;
 }
-content{
+
+.stripes h2 {
+    
+    background-color: lightblue;
+    color:darkgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+    font-size: 36px;
+    
+}
+.content{
+    display: flex;
     background-color: lightgray;
+    font-size: 12;
 }
+.content #about {
+    background-color:darkgreen;
+}
+
+
+/* Tablet
+@media screen and (max-width:992px)
+large smartphone
+@media screen and (max-width:768px)
+small smartphone
+@media screen and (max-width:576px)
