@@ -48,8 +48,6 @@ header nav ul li{
 }
 
 .stripes h2 {
-    
-    
     padding:0px;
     
 }
@@ -70,7 +68,10 @@ h2{
     padding-bottom: 20px;
 }
 
-.content{
+
+/*.content {
+    border-right: 5px slateblue;
+    height: 100%;
 
 }
 /* Tablet
