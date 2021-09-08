@@ -5,30 +5,28 @@
     
 }
 
-.header{
-    padding:20px;
+header{
+    padding:20px 40px;
     background-color: darkgray;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.header h1{
-    display: inline-block;
+header h1{
+    display: flex;
+    flex-wrap: wrap;
     background-color: lightblue;
     color: darkgray;
     font-size: 48px;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom:20px;
+   
 }
-.header nav{
+header nav{
     padding-top: 15px;
     margin-right: 20px;
-    float: right;
     font-size: 20px;
 }
 
-.header nav ul li{
+header nav ul li{
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
@@ -38,6 +36,12 @@
 
 .stripes {
     background-image: url(../Basic-Portfolio/stripes.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position:relative;
+
     height: 160px;
 }
 
@@ -45,11 +49,6 @@
     
     background-color: lightblue;
     color:darkgray;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    float: right;
     font-size: 16px;
     
 }
@@ -60,7 +59,7 @@ main {
     font-size: 12px;
     float: right;
 }
-main header{
+h2{
     font-size: 24px;
     background-color: white;
     color: darkslateblue;
