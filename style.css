@@ -41,15 +41,16 @@ header nav ul li{
     justify-content: flex-end;
     flex-wrap: wrap;
     position:relative;
-
+    background-color: lightblue;
+    color:darkgray;
+    font-size: 16px;
     height: 160px;
 }
 
 .stripes h2 {
     
-    background-color: lightblue;
-    color:darkgray;
-    font-size: 16px;
+    
+    padding:0px;
     
 }
 
@@ -69,7 +70,9 @@ h2{
     padding-bottom: 20px;
 }
 
+.content{
 
+}
 /* Tablet
 @media screen and (max-width:992px)
 large smartphone
